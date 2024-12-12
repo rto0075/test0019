@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時計ブランド診断</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>あなたに似合う時計ブランド診断</h1>
+        <p>あなたのスタイルにぴったりな時計ブランドを見つけましょう！</p>
+
+        <div id="question-container">
+            <!-- 質問がここに表示される -->
+        </div>
+
+        <button id="next-button" onclick="nextQuestion()">次へ</button>
+
+        <div id="result-container" class="hidden">
+            <h2>診断結果</h2>
+            <p id="result-text"></p>
+            <button onclick="resetQuiz()">もう一度診断</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+s
